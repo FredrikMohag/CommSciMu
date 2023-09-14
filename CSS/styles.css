@@ -33,11 +33,11 @@ body2 {
 
 body {
   box-shadow: inset 33.33vw 0px 0px #0b91c4, inset 66.66vw 0px 0px #dc1e45,
-    inset 99.99vw 0px 0px #71c777;
+    inset 99.99vw 0px 0px #1ca47c;
 }
 
 body2 {
-  box-shadow: inset 33.33vw 0px 0px #ff2f67, inset 66.66vw 0px 0px #71c777,
+  box-shadow: inset 33.33vw 0px 0px #ff2f67, inset 66.66vw 0px 0px #1ca47c,
     inset 99.99vw 0px 0px #0b91c4;
 }
 
@@ -82,7 +82,7 @@ body2 {
 }
 
 .rectangle {
-  background: #71c777;
+  background: #1ca47c;
   padding-left: 30px;
 }
 
@@ -215,7 +215,7 @@ body2 {
   padding: 10px;
   text-align: center;
   width: 100%;
-  background: #71c777;
+  background: 1CA47C;
   color: white;
   text-transform: uppercase;
   letter-spacing: 5px;
