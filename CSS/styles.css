@@ -14,12 +14,14 @@ label {
   color: white;
   font-family: Helsinki;
   text-decoration: none;
+  width: 100%;
 }
 
 h3,
 p {
   color: white;
   font-family: Georama_Condensed-Regular;
+  width: 100%;
 }
 
 body,
@@ -30,6 +32,7 @@ body2 {
   flex-direction: column;
   min-height: 100vh;
   background-color: #2d2d2d;
+  width: 100%;
 }
 
 body {
@@ -47,6 +50,7 @@ body2 {
   font-size: 63px;
   flex-direction: column;
   text-align: center;
+  width: 100%;
 }
 
 .oval1,
@@ -69,7 +73,7 @@ body2 {
 
 .ovals {
   display: flex;
-  justify-content: center;
+
   margin-top: 0%;
   width: 100%;
 }
@@ -80,16 +84,15 @@ body2 {
   display: flex;
   font-size: 40px;
   margin-top: 250px;
+  width: 100%;
 }
 
 .rectangle {
   background: #1ca47c;
-  padding-left: 30px;
 }
 
 .rectangle2 {
   background: #0b91c4;
-  padding: 30px;
 }
 
 .rectangle3 {
@@ -97,13 +100,15 @@ body2 {
 }
 
 .move-right {
-  margin-left: auto;
+  padding-right: 30px;
+  width: 100%;
+}
+.move-right {
+  text-align: right;
   padding-right: 30px;
 }
-
 .move-left {
-  margin-right: auto;
-  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .about-text {
@@ -112,6 +117,7 @@ body2 {
   padding: 30px;
   padding-top: 170px;
   text-align: justify;
+  width: 100%;
 }
 
 .about-img,
@@ -122,11 +128,13 @@ body2 {
   display: flex;
   width: 480px;
   height: 341px;
+  max-width: 100%;
 }
 
 .about-container,
 .exhi-container,
-.exhi-text {
+.exhi-text,
+.cosmo-container {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -148,6 +156,7 @@ body2 {
   font-size: 28px;
   padding: 30px;
   text-align: justify;
+  width: 100%;
 }
 .hello-text {
   font-size: 28px;
@@ -159,6 +168,7 @@ body2 {
 .address,
 .hours {
   text-align: center;
+  width: 100%;
 }
 
 .symbols-container {
@@ -174,9 +184,6 @@ body2 {
   height: 200px;
 }
 
-.cosmo-container {
-  display: flex;
-}
 .wrapper {
   display: flex;
   position: relative;
@@ -224,3 +231,12 @@ body2 {
   border-radius: 25px;
   cursor: pointer;
 }
+/*media queray
+@media {
+  (max-width: 768px) 
+  .about-img,
+  .about-img2,
+  .robot-img,
+  .cosmo-img,
+  .eco-img {
+    max-width: 80%; /* Adjust the percentage as needed */

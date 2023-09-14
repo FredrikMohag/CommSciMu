@@ -31,7 +31,7 @@
   flex-direction: column;
   gap: var(--hamburger-gap);
   width: max-content;
-  position: absolute;
+  position: fixed;
   top: var(--hamburger-margin);
   left: var(--hamburger-margin);
   z-index: 2;
@@ -79,7 +79,7 @@
 .sidebar {
   transition: translate var(--animation-timing);
   translate: -100%;
-  position: absolute;
+  position: fixed;
   padding: 0.5rem 1rem;
   padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
   background-color: var(--foreground);
@@ -105,7 +105,4 @@
   text-decoration: none;
   display: block;
   padding: 25px 10px;
-}
-.label {
-  display: flex;
 }
