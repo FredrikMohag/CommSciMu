@@ -195,7 +195,7 @@ body2 {
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #332902;
+  color: white;
 }
 .wrapper .input_field {
   margin-bottom: 10px;
@@ -209,7 +209,7 @@ body2 {
   height: 80px;
   width: 100%;
 }
-.wrapper .btn input[type="submit"] {
+.wrapper .button input[type="submit"] {
   border: 0px;
   margin-top: 15px;
   padding: 10px;
@@ -222,12 +222,4 @@ body2 {
   font-weight: bold;
   border-radius: 25px;
   cursor: pointer;
-}
-#error_message {
-  margin-bottom: 20px;
-  background: #fe8b8e;
-  padding: 0px;
-  text-align: center;
-  font-size: 14px;
-  transition: all 0.5s ease;
 }
