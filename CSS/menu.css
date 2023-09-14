@@ -26,9 +26,8 @@
 
 /* Hamburger Menu */
 .hamburger-menu {
-  --x-width: calc(var(--hamburger-height) * 1.41421356237);
-
   display: flex;
+  --x-width: calc(var(--hamburger-height) * 1.41421356237);
   flex-direction: column;
   gap: var(--hamburger-gap);
   width: max-content;
@@ -106,4 +105,7 @@
   text-decoration: none;
   display: block;
   padding: 25px 10px;
+}
+.label {
+  display: flex;
 }
