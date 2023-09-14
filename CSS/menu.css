@@ -2,7 +2,7 @@
   --bar-width: 60px;
   --bar-height: 8px;
   --hamburger-gap: 6px;
-  --foreground: #71c777;
+  --foreground: #1ca47c;
   --background: #0b91c4;
   --hamburger-margin: 8px;
   --animation-timing: 200ms ease-in-out;
@@ -41,7 +41,7 @@
 
 .hamburger-menu:has(input:checked) {
   --foreground: #0b91c4;
-  --background: #71c777;
+  --background: #1ca47c;
 }
 
 .hamburger-menu:has(input:focus-visible)::before,
