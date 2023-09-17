@@ -77,7 +77,6 @@ body2 {
 
 .ovals {
   display: flex;
-  margin-top: 0%;
   width: 100%;
 }
 
@@ -154,13 +153,19 @@ body2 {
 .rob-text,
 .cosmo-text,
 .eco-text,
-.address,
-.hours,
-.cosmo-fun,
-.ticket-text {
+.cosmo-fun {
   flex: 1;
   font-size: 28px;
   padding: 30px;
+  text-align: justify;
+  width: 100%;
+}
+.address,
+.hours,
+.ticket-text {
+  flex: 1;
+  font-size: 28px;
+  padding: 10px;
   text-align: justify;
   width: 100%;
 }
@@ -221,7 +226,7 @@ body2 {
 .wrapper textarea {
   resize: none;
   height: 80px;
-  width: 100%;
+  width: 80%;
 }
 .wrapper .button input[type="submit"] {
   border: 0px;
@@ -242,10 +247,11 @@ body2 {
   .ovals-menu {
     flex-direction: column;
     margin-top: -100px;
+    padding: -100px;
   }
 
   .heading {
-    font-size: 38px;
+    font-size: 20px;
   }
   .about-text,
   .eco-text,
@@ -265,16 +271,17 @@ body2 {
   .robot-img,
   .cosmo-img,
   .eco-img {
-    width: 16px;
-    height: 141px;
+    width: 130px;
+    height: 100px;
   }
   .oval1,
   .oval2,
   .oval3,
   .oval4 {
-    width: 160px;
-    height: 80px;
-    font-size: 15px;
+    width: 130px;
+    height: 20px;
+    font-size: 12px;
+    padding-bottom: 40px;
   }
 
   .rob-text,
@@ -287,17 +294,18 @@ body2 {
   .exhi-text,
   .ticket-text,
   .about-text {
-    font-size: 20px;
+    font-size: 12px;
   }
   .symbol-img {
     width: 100px;
     height: 100px;
   }
   .wrapper .button input[type="submit"] {
-    width: 170px;
-    height: 60px;
+    width: 120px;
+    height: 40px;
   }
+
   .button {
-    padding-left: 70px;
+    padding-left: 95px;
   }
 }
