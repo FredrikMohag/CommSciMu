@@ -1,4 +1,4 @@
-/* Styles footer and .footer2 */
+/* Styles for footer and .footer2 */
 .footer,
 .footer2 {
   display: flex;
@@ -10,23 +10,19 @@
   justify-content: space-evenly;
 }
 
-/* Styles specific to .footer */
 .footer {
   background: #1ca47c;
 }
 
-/* Styles specific to .footer2 */
 .footer2 {
   background: #dc1e45;
 }
 
-/* Common styles for .footer and .footer2 div elements */
 .footer div,
 .footer2 div {
   text-align: center;
 }
 
-/* Shared column styles */
 .col-1,
 .col-2,
 .col-3 {
@@ -35,7 +31,6 @@
   text-decoration: none;
 }
 
-/* Shared form input styles */
 form input {
   width: 300px;
   height: 45px;
@@ -46,7 +41,6 @@ form input {
   border: none;
 }
 
-/* Shared form button styles */
 form button {
   background: transparent;
   border: 2px solid #ffff;
@@ -57,7 +51,6 @@ form button {
   cursor: pointer;
 }
 
-/* Shared footer icon styles */
 .footer-icons img {
   width: 30px;
   height: 30px;

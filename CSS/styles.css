@@ -1,3 +1,4 @@
+/* Styles for the page */
 @font-face {
   font-family: Helsinki;
   src: url(/Helsinki.ttf) format("truetype");
@@ -187,6 +188,8 @@ body2 {
   display: flex;
   width: 100%;
   justify-content: space-around;
+}
+.symbols-container {
   padding-top: 20px;
 }
 

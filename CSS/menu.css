@@ -1,3 +1,4 @@
+/* Styles for menu */
 :root {
   --bar-width: 60px;
   --bar-height: 8px;
@@ -9,7 +10,6 @@
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
 
-/* Common styles for ::before and ::after pseudo-elements and input */
 .hamburger-menu::before,
 .hamburger-menu::after,
 .hamburger-menu input {
