@@ -52,7 +52,10 @@ body2 {
   text-align: center;
   width: 100%;
 }
-
+.ovals-menu {
+  display: flex;
+  max-width: 100%;
+}
 .oval1,
 .oval2,
 .oval3,
@@ -69,11 +72,11 @@ body2 {
   justify-content: center;
   text-align: center;
   padding-top: 10px;
+  max-width: 100%;
 }
 
 .ovals {
   display: flex;
-
   margin-top: 0%;
   width: 100%;
 }
@@ -131,13 +134,12 @@ body2 {
   max-width: 100%;
 }
 
-.about-container,
 .exhi-container,
 .exhi-text,
 .cosmo-container {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .hello-container {
   display: flex;
@@ -145,13 +147,17 @@ body2 {
   width: 100%;
   justify-content: center;
 }
+.button {
+  padding-right: 30px;
+}
 
 .rob-text,
 .cosmo-text,
 .eco-text,
 .address,
 .hours,
-.cosmo-fun {
+.cosmo-fun,
+.ticket-text {
   flex: 1;
   font-size: 28px;
   padding: 30px;
@@ -171,11 +177,11 @@ body2 {
   width: 100%;
 }
 
-.symbols-container {
+.symbols-container,
+.about-container {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  padding-top: 100px;
 }
 
 .symbol-img {
@@ -231,12 +237,67 @@ body2 {
   border-radius: 25px;
   cursor: pointer;
 }
-/*media queray
-@media {
-  (max-width: 768px) 
+
+@media (max-width: 768px) {
+  .ovals-menu {
+    flex-direction: column;
+    margin-top: -100px;
+  }
+
+  .heading {
+    font-size: 38px;
+  }
+  .about-text,
+  .eco-text,
+  .cosmo-text,
+  .rob-text,
+  .cosmo-fun {
+    margin-top: -10px;
+    padding: 10px;
+  }
+
+  .hello-text {
+    margin-top: -10px;
+    width: 30%;
+  }
   .about-img,
   .about-img2,
   .robot-img,
   .cosmo-img,
   .eco-img {
-    max-width: 80%; /* Adjust the percentage as needed */
+    width: 167px;
+    height: 141px;
+  }
+  .oval1,
+  .oval2,
+  .oval3,
+  .oval4 {
+    width: 160px;
+    height: 80px;
+    font-size: 15px;
+  }
+
+  .rob-text,
+  .cosmo-text,
+  .eco-text,
+  .hours,
+  .address,
+  .cosmo-fun,
+  .hello-text,
+  .exhi-text,
+  .ticket-text,
+  .about-text {
+    font-size: 20px;
+  }
+  .symbol-img {
+    width: 100px;
+    height: 100px;
+  }
+  .wrapper .button input[type="submit"] {
+    width: 170px;
+    height: 60px;
+  }
+  .button {
+    padding-left: 70px;
+  }
+}
